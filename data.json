@@ -1,0 +1,759 @@
+[
+    {
+        "total": 50,
+        "description": "Product List",
+        "limit": 10,
+        "list": [
+            {
+                "id": 1,
+                "brand": "Apple",
+                "description": "Apple iPhone 13 with 128GB storage",
+                "stock": 100,
+                "category": "Electronics",
+                "price": 799.99,
+                "sale": 0,
+                "image": ["https://example.com/iphone13_1.jpg", "https://example.com/iphone13_2.jpg", "https://example.com/iphone13_3.jpg"],
+                "timeinfo": {
+                    "date": "01, January, 2024",
+                    "available": "15, January, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 2,
+                "brand": "Samsung",
+                "description": "Samsung Galaxy S21 with 256GB storage",
+                "stock": 50,
+                "category": "Electronics",
+                "price": 999.99,
+                "sale": 0,
+                "image": ["https://example.com/galaxys21_1.jpg", "https://example.com/galaxys21_2.jpg", "https://example.com/galaxys21_3.jpg"],
+                "timeinfo": {
+                    "date": "02, January, 2024",
+                    "available": "20, January, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 3,
+                "brand": "Sony",
+                "description": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+                "stock": 200,
+                "category": "Audio",
+                "price": 349.99,
+                "sale": 9,
+                "image": ["https://example.com/sonywh1000xm4_1.jpg", "https://example.com/sonywh1000xm4_2.jpg", "https://example.com/sonywh1000xm4_3.jpg"],
+                "timeinfo": {
+                    "date": "03, January, 2024",
+                    "available": "25, January, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 4,
+                "brand": "Nike",
+                "description": "Nike Air Max 270 Running Shoes",
+                "stock": 300,
+                "category": "Footwear",
+                "price": 129.99,
+                "sale": 9,
+                "image": ["https://example.com/nikeairmax270_1.jpg", "https://example.com/nikeairmax270_2.jpg", "https://example.com/nikeairmax270_3.jpg"],
+                "timeinfo": {
+                    "date": "04, January, 2024",
+                    "available": "30, January, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 5,
+                "brand": "Adidas",
+                "description": "Adidas Ultraboost 21 Running Shoes",
+                "stock": 150,
+                "category": "Footwear",
+                "price": 179.99,
+                "sale": 9,
+                "image": ["https://example.com/adidasultraboost21_1.jpg", "https://example.com/adidasultraboost21_2.jpg", "https://example.com/adidasultraboost21_3.jpg"],
+                "timeinfo": {
+                    "date": "05, January, 2024",
+                    "available": "05, February, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 6,
+                "brand": "Dell",
+                "description": "Dell XPS 13 Laptop with Intel Core i7",
+                "stock": 75,
+                "category": "Computers",
+                "price": 1199.99,
+                "sale": 9,
+                "image": ["https://example.com/dellxps13_1.jpg", "https://example.com/dellxps13_2.jpg", "https://example.com/dellxps13_3.jpg"],
+                "timeinfo": {
+                    "date": "06, January, 2024",
+                    "available": "10, February, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 7,
+                "brand": "HP",
+                "description": "HP Spectre x360 Convertible Laptop",
+                "stock": 60,
+                "category": "Computers",
+                "price": 1399.99,
+                "sale": 0,
+                "image": ["https://example.com/hpspectrex360_1.jpg", "https://example.com/hpspectrex360_2.jpg", "https://example.com/hpspectrex360_3.jpg"],
+                "timeinfo": {
+                    "date": "07, January, 2024",
+                    "available": "15, February, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 8,
+                "brand": "Sony",
+                "description": "Sony Bravia 55 inch 4K Ultra HD Smart TV",
+                "stock": 30,
+                "category": "Electronics",
+                "price": 799.99,
+                "sale": 0,
+                "image": ["https://example.com/sonybravia55_1.jpg", "https://example.com/sonybravia55_2.jpg", "https://example.com/sonybravia55_3.jpg"],
+                "timeinfo": {
+                    "date": "08, January, 2024",
+                    "available": "20, February, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 9,
+                "brand": "Bose",
+                "description": "Bose SoundLink Revolve+ Bluetooth Speaker",
+                "stock": 120,
+                "category": "Audio",
+                "price": 299.99,
+                "sale": 0,
+                "image": ["https://example.com/bosesoundlinkrevolve+_1.jpg", "https://example.com/bosesoundlinkrevolve+_2.jpg", "https://example.com/bosesoundlinkrevolve+_3.jpg"],
+                "timeinfo": {
+                    "date": "09, January, 2024",
+                    "available": "25, February, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 10,
+                "brand": "Canon",
+                "description": "Canon EOS Rebel T7 DSLR Camera Bundle",
+                "stock": 80,
+                "category": "Cameras",
+                "price": 549.99,
+                "sale": 12,
+                "image": ["https://example.com/canoneosrebelt7_1.jpg", "https://example.com/canoneosrebelt7_2.jpg", "https://example.com/canoneosrebelt7_3.jpg"],
+                "timeinfo": {
+                    "date": "10, January, 2024",
+                    "available": "01, March, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 11,
+                "brand": "Apple",
+                "description": "Apple iPad Pro 11 inch with 128GB storage",
+                "stock": 90,
+                "category": "Tablets",
+                "price": 799.99,
+                "sale": 12,
+                "image": ["https://example.com/ipadpro11_1.jpg", "https://example.com/ipadpro11_2.jpg", "https://example.com/ipadpro11_3.jpg"],
+                "timeinfo": {
+                    "date": "11, January, 2024",
+                    "available": "05, March, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 12,
+                "brand": "Samsung",
+                "description": "Samsung Galaxy Tab S7 with 256GB storage",
+                "stock": 70,
+                "category": "Tablets",
+                "price": 649.99,
+                "sale": 12,
+                "image": ["https://example.com/galaxytabs7_1.jpg", "https://example.com/galaxytabs7_2.jpg", "https://example.com/galaxytabs7_3.jpg"],
+                "timeinfo": {
+                    "date": "12, January, 2024",
+                    "available": "10, March, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 13,
+                "brand": "Microsoft",
+                "description": "Microsoft Surface Pro 7 with Type Cover",
+                "stock": 40,
+                "category": "Tablets",
+                "price": 899.99,
+                "sale": 0,
+                "image": ["https://example.com/surfacepro7_1.jpg", "https://example.com/surfacepro7_2.jpg", "https://example.com/surfacepro7_3.jpg"],
+                "timeinfo": {
+                    "date": "13, January, 2024",
+                    "available": "15, March, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 14,
+                "brand": "LG",
+                "description": "LG 34 inch UltraWide QHD Monitor",
+                "stock": 50,
+                "category": "Monitors",
+                "price": 599.99,
+                "sale": 0,
+                "image": ["https://example.com/lgultrawide34_1.jpg", "https://example.com/lgultrawide34_2.jpg", "https://example.com/lgultrawide34_3.jpg"],
+                "timeinfo": {
+                    "date": "14, January, 2024",
+                    "available": "20, March, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 15,
+                "brand": "Dell",
+                "description": "Dell UltraSharp 27 inch 4K Monitor",
+                "stock": 60,
+                "category": "Monitors",
+                "price": 699.99,
+                "sale": 0,
+                "image": ["https://example.com/dellultrasharp27_1.jpg", "https://example.com/dellultrasharp27_2.jpg", "https://example.com/dellultrasharp27_3.jpg"],
+                "timeinfo": {
+                    "date": "15, January, 2024",
+                    "available": "25, March, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 16,
+                "brand": "Logitech",
+                "description": "Logitech MX Master 3 Advanced Wireless Mouse",
+                "stock": 150,
+                "category": "Accessories",
+                "price": 99.99,
+                "sale": 0,
+                "image": ["https://example.com/logitechmxmaster3_1.jpg", "https://example.com/logitechmxmaster3_2.jpg", "https://example.com/logitechmxmaster3_3.jpg"],
+                "timeinfo": {
+                    "date": "16, January, 2024",
+                    "available": "30, March, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 17,
+                "brand": "Razer",
+                "description": "Razer BlackWidow V3 Pro Wireless Gaming Keyboard",
+                "stock": 100,
+                "category": "Accessories",
+                "price": 229.99,
+                "sale": 0,
+                "image": ["https://example.com/razerblackwidowv3_1.jpg", "https://example.com/razerblackwidowv3_2.jpg", "https://example.com/razerblackwidowv3_3.jpg"],
+                "timeinfo": {
+                    "date": "17, January, 2024",
+                    "available": "05, April, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 18,
+                "brand": "Corsair",
+                "description": "Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3600MHz C18 Desktop Memory",
+                "stock": 70,
+                "category": "Components",
+                "price": 159.99,
+                "sale": 0,
+                "image": ["https://example.com/corsairvengeancergbpro_1.jpg", "https://example.com/corsairvengeancergbpro_2.jpg", "https://example.com/corsairvengeancergbpro_3.jpg"],
+                "timeinfo": {
+                    "date": "18, January, 2024",
+                    "available": "10, April, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 19,
+                "brand": "Asus",
+                "description": "Asus ROG Strix GeForce RTX 3080 Ti 12GB Graphics Card",
+                "stock": 30,
+                "category": "Components",
+                "price": 1299.99,
+                "sale": 0,
+                "image": ["https://example.com/asusrogstrixrtx3080ti_1.jpg", "https://example.com/asusrogstrixrtx3080ti_2.jpg", "https://example.com/asusrogstrixrtx3080ti_3.jpg"],
+                "timeinfo": {
+                    "date": "19, January, 2024",
+                    "available": "15, April, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 20,
+                "brand": "Intel",
+                "description": "Intel Core i9-11900K 8-Core Processor",
+                "stock": 50,
+                "category": "Components",
+                "price": 499.99,
+                "sale": 0,
+                "image": ["https://example.com/intelcorei9_1.jpg", "https://example.com/intelcorei9_2.jpg", "https://example.com/intelcorei9_3.jpg"],
+                "timeinfo": {
+                    "date": "20, January, 2024",
+                    "available": "20, April, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 21,
+                "brand": "AMD",
+                "description": "AMD Ryzen 9 5900X 12-Core Processor",
+                "stock": 40,
+                "category": "Components",
+                "price": 549.99,
+                "sale": 0,
+                "image": ["https://example.com/amdryzen9_1.jpg", "https://example.com/amdryzen9_2.jpg", "https://example.com/amdryzen9_3.jpg"],
+                "timeinfo": {
+                    "date": "21, January, 2024",
+                    "available": "25, April, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 22,
+                "brand": "Gigabyte",
+                "description": "Gigabyte AORUS Master X570 Motherboard",
+                "stock": 60,
+                "category": "Components",
+                "price": 399.99,
+                "sale": 0,
+                "image": ["https://example.com/gigabyteaorusmasterx570_1.jpg", "https://example.com/gigabyteaorusmasterx570_2.jpg", "https://example.com/gigabyteaorusmasterx570_3.jpg"],
+                "timeinfo": {
+                    "date": "22, January, 2024",
+                    "available": "30, April, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 23,
+                "brand": "MSI",
+                "description": "MSI MAG B550 TOMAHAWK ATX Motherboard",
+                "stock": 70,
+                "category": "Components",
+                "price": 189.99,
+                "sale": 10,
+                "image": ["https://example.com/msimagb550tomahawk_1.jpg", "https://example.com/msimagb550tomahawk_2.jpg", "https://example.com/msimagb550tomahawk_3.jpg"],
+                "timeinfo": {
+                    "date": "23, January, 2024",
+                    "available": "05, May, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 24,
+                "brand": "Western Digital",
+                "description": "Western Digital Black 1TB NVMe SSD",
+                "stock": 100,
+                "category": "Storage",
+                "price": 149.99,
+                "sale": 10,
+                "image": ["https://example.com/wdblack1tb_1.jpg", "https://example.com/wdblack1tb_2.jpg", "https://example.com/wdblack1tb_3.jpg"],
+                "timeinfo": {
+                    "date": "24, January, 2024",
+                    "available": "10, May, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 25,
+                "brand": "Samsung",
+                "description": "Samsung 970 EVO Plus 1TB NVMe SSD",
+                "stock": 80,
+                "category": "Storage",
+                "price": 169.99,
+                "sale": 10,
+                "image": ["https://example.com/samsung970evoplus1tb_1.jpg", "https://example.com/samsung970evoplus1tb_2.jpg", "https://example.com/samsung970evoplus1tb_3.jpg"],
+                "timeinfo": {
+                    "date": "25, January, 2024",
+                    "available": "15, May, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 26,
+                "brand": "Seagate",
+                "description": "Seagate Barracuda 4TB Hard Drive",
+                "stock": 150,
+                "category": "Storage",
+                "price": 99.99,
+                "sale": 10,
+                "image": ["https://example.com/seagatebarracuda4tb_1.jpg", "https://example.com/seagatebarracuda4tb_2.jpg", "https://example.com/seagatebarracuda4tb_3.jpg"],
+                "timeinfo": {
+                    "date": "26, January, 2024",
+                    "available": "20, May, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 27,
+                "brand": "Crucial",
+                "description": "Crucial MX500 1TB 3D NAND SATA 2.5 Inch Internal SSD",
+                "stock": 90,
+                "category": "Storage",
+                "price": 114.99,
+                "sale": 0,
+                "image": ["https://example.com/crucialmx5001tb_1.jpg", "https://example.com/crucialmx5001tb_2.jpg", "https://example.com/crucialmx5001tb_3.jpg"],
+                "timeinfo": {
+                    "date": "27, January, 2024",
+                    "available": "25, May, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 28,
+                "brand": "Kingston",
+                "description": "Kingston A2000 1TB NVMe PCIe M.2 2280 Internal SSD",
+                "stock": 70,
+                "category": "Storage",
+                "price": 129.99,
+                "sale": 0,
+                "image": ["https://example.com/kingstona20001tb_1.jpg", "https://example.com/kingstona20001tb_2.jpg", "https://example.com/kingstona20001tb_3.jpg"],
+                "timeinfo": {
+                    "date": "28, January, 2024",
+                    "available": "30, May, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 29,
+                "brand": "Asus",
+                "description": "Asus ROG Swift PG279Q 27 inch Gaming Monitor",
+                "stock": 40,
+                "category": "Monitors",
+                "price": 799.99,
+                "sale": 0,
+                "image": ["https://example.com/asusrogswiftpg279q_1.jpg", "https://example.com/asusrogswiftpg279q_2.jpg", "https://example.com/asusrogswiftpg279q_3.jpg"],
+                "timeinfo": {
+                    "date": "29, January, 2024",
+                    "available": "05, June, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 30,
+                "brand": "LG",
+                "description": "LG 27GL850-B 27 inch Ultragear Gaming Monitor",
+                "stock": 60,
+                "category": "Monitors",
+                "price": 499.99,
+                "sale": 0,
+                "image": ["https://example.com/lg27gl850b_1.jpg", "https://example.com/lg27gl850b_2.jpg", "https://example.com/lg27gl850b_3.jpg"],
+                "timeinfo": {
+                    "date": "30, January, 2024",
+                    "available": "10, June, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 31,
+                "brand": "Alienware",
+                "description": "Alienware AW3418DW 34 inch Curved Gaming Monitor",
+                "stock": 30,
+                "category": "Monitors",
+                "price": 999.99,
+                "sale": 0,
+                "image": ["https://example.com/alienwareaw3418dw_1.jpg", "https://example.com/alienwareaw3418dw_2.jpg", "https://example.com/alienwareaw3418dw_3.jpg"],
+                "timeinfo": {
+                    "date": "31, January, 2024",
+                    "available": "15, June, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 32,
+                "brand": "Sony",
+                "description": "Sony Alpha a6400 Mirrorless Camera",
+                "stock": 40,
+                "category": "Cameras",
+                "price": 899.99,
+                "sale": 0,
+                "image": ["https://example.com/sonyalphaa6400_1.jpg", "https://example.com/sonyalphaa6400_2.jpg", "https://example.com/sonyalphaa6400_3.jpg"],
+                "timeinfo": {
+                    "date": "01, February, 2024",
+                    "available": "20, June, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 33,
+                "brand": "Fujifilm",
+                "description": "Fujifilm X-T4 Mirrorless Digital Camera",
+                "stock": 35,
+                "category": "Cameras",
+                "price": 1699.99,
+                "sale": 0,
+                "image": ["https://example.com/fujifilmxt4_1.jpg", "https://example.com/fujifilmxt4_2.jpg", "https://example.com/fujifilmxt4_3.jpg"],
+                "timeinfo": {
+                    "date": "02, February, 2024",
+                    "available": "25, June, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 34,
+                "brand": "GoPro",
+                "description": "GoPro HERO9 Black 5K Action Camera",
+                "stock": 100,
+                "category": "Cameras",
+                "price": 399.99,
+                "sale": 0,
+                "image": ["https://example.com/goprohero9_1.jpg", "https://example.com/goprohero9_2.jpg", "https://example.com/goprohero9_3.jpg"],
+                "timeinfo": {
+                    "date": "03, February, 2024",
+                    "available": "30, June, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 35,
+                "brand": "Canon",
+                "description": "Canon RF 24-105mm f/4L IS USM Lens",
+                "stock": 50,
+                "category": "Lenses",
+                "price": 1099.99,
+                "sale": 0,
+                "image": ["https://example.com/canonrf24_105mm_1.jpg", "https://example.com/canonrf24_105mm_2.jpg", "https://example.com/canonrf24_105mm_3.jpg"],
+                "timeinfo": {
+                    "date": "04, February, 2024",
+                    "available": "05, July, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 36,
+                "brand": "Nikon",
+                "description": "Nikon Z 50mm f/1.8 S Lens",
+                "stock": 70,
+                "category": "Lenses",
+                "price": 599.99,
+                "sale": 0,
+                "image": ["https://example.com/nikonz50mm_1.jpg", "https://example.com/nikonz50mm_2.jpg", "https://example.com/nikonz50mm_3.jpg"],
+                "timeinfo": {
+                    "date": "05, February, 2024",
+                    "available": "10, July, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 37,   
+                "brand": "Sony",
+                "description": "Sony FE 24-70mm f/2.8 GM Lens",
+                "stock": 40,
+                "category": "Lenses",
+                "price": 2199.99,
+                "sale": 9.9,
+                "image": ["https://example.com/sonyfe24_70mm_1.jpg", "https://example.com/sonyfe24_70mm_2.jpg", "https://example.com/sonyfe24_70mm_3.jpg"],
+                "timeinfo": {
+                    "date": "06, February, 2024",
+                    "available": "15, July, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 38,
+                "brand": "Sigma",
+                "description": "Sigma 85mm f/1.4 DG HSM Art Lens",
+                "stock": 30,
+                "category": "Lenses",
+                "price": 1199.99,
+                "sale": 9.9,
+                "image": ["https://example.com/sigma85mm_1.jpg", "https://example.com/sigma85mm_2.jpg", "https://example.com/sigma85mm_3.jpg"],
+                "timeinfo": {
+                    "date": "07, February, 2024",
+                    "available": "20, July, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 39,
+                "brand": "Tamron",
+                "description": "Tamron 28-75mm f/2.8 Di III RXD Lens",
+                "stock": 50,
+                "category": "Lenses",
+                "price": 899.99,
+                "sale": 0,
+                "image": ["https://example.com/tamron28_75mm_1.jpg", "https://example.com/tamron28_75mm_2.jpg", "https://example.com/tamron28_75mm_3.jpg"],
+                "timeinfo": {
+                    "date": "08, February, 2024",
+                    "available": "25, July, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 40,
+                "brand": "Zeiss",
+                "description": "Zeiss Batis 25mm f/2 Lens",
+                "stock": 20,
+                "category": "Lenses",
+                "price": 1299.99,
+                "sale": 0,
+                "image": ["https://example.com/zeissbatis25mm_1.jpg", "https://example.com/zeissbatis25mm_2.jpg", "https://example.com/zeissbatis25mm_3.jpg"],
+                "timeinfo": {
+                    "date": "09, February, 2024",
+                    "available": "30, July, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 41,
+                "brand": "Apple",
+                "description": "Apple MacBook Pro 16-inch",
+                "stock": 30,
+                "category": "Laptops",
+                "price": 2399.99,
+                "sale": 0,
+                "image": ["https://example.com/macbookpro16_1.jpg", "https://example.com/macbookpro16_2.jpg", "https://example.com/macbookpro16_3.jpg"],
+                "timeinfo": {
+                    "date": "10, February, 2024",
+                    "available": "01, August, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 42,
+                "brand": "HP",
+                "description": "HP Spectre x360 14",
+                "stock": 40,
+                "category": "Laptops",
+                "price": 1499.99,
+                "sale": 0,
+                "image": ["https://example.com/hpspectrex36014_1.jpg", "https://example.com/hpspectrex36014_2.jpg", "https://example.com/hpspectrex36014_3.jpg"],
+                "timeinfo": {
+                    "date": "11, February, 2024",
+                    "available": "05, August, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 43,
+                "brand": "Lenovo",
+                "description": "Lenovo ThinkPad X1 Carbon Gen 9",
+                "stock": 50,
+                "category": "Laptops",
+                "price": 1799.99,
+                "sale": 0,
+                "image": ["https://example.com/lenovothinkpadx1carbon_1.jpg", "https://example.com/lenovothinkpadx1carbon_2.jpg", "https://example.com/lenovothinkpadx1carbon_3.jpg"],
+                "timeinfo": {
+                    "date": "12, February, 2024",
+                    "available": "10, August, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 44,
+                "brand": "Dell",
+                "description": "Dell XPS 13",
+                "stock": 60,
+                "category": "Laptops",
+                "price": 1299.99,
+                "sale": 31,
+                "image": ["https://example.com/dellxps13_1.jpg", "https://example.com/dellxps13_2.jpg", "https://example.com/dellxps13_3.jpg"],
+                "timeinfo": {
+                    "date": "13, February, 2024",
+                    "available": "15, August, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 45,
+                "brand": "Asus",
+                "description": "Asus ZenBook Duo 14",
+                "stock": 35,
+                "category": "Laptops",
+                "price": 1499.99,
+                "sale": 31,
+                "image": ["https://example.com/asuszenbookduo14_1.jpg", "https://example.com/asuszenbookduo14_2.jpg", "https://example.com/asuszenbookduo14_3.jpg"],
+                "timeinfo": {
+                    "date": "14, February, 2024",
+                    "available": "20, August, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 46,
+                "brand": "Razer",
+                "description": "Razer Blade 15 Advanced",
+                "stock": 25,
+                "category": "Laptops",
+                "price": 2599.99,
+                "sale": 0,
+                "image": ["https://example.com/razerblade15_1.jpg", "https://example.com/razerblade15_2.jpg", "https://example.com/razerblade15_3.jpg"],
+                "timeinfo": {
+                    "date": "15, February, 2024",
+                    "available": "25, August, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 47,
+                "brand": "Microsoft",
+                "description": "Microsoft Surface Laptop 4",
+                "stock": 50,
+                "category": "Laptops",
+                "price": 1399.99,
+                "sale": 0,
+                "image": ["https://example.com/surfacelaptop4_1.jpg", "https://example.com/surfacelaptop4_2.jpg", "https://example.com/surfacelaptop4_3.jpg"],
+                "timeinfo": {
+                    "date": "16, February, 2024",
+                    "available": "30, August, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 48,
+                "brand": "Acer",
+                "description": "Acer Predator Helios 300",
+                "stock": 40,
+                "category": "Laptops",
+                "price": 1299.99,
+                "sale": 0,
+                "image": ["https://example.com/acerpredatorhelios300_1.jpg", "https://example.com/acerpredatorhelios300_2.jpg", "https://example.com/acerpredatorhelios300_3.jpg"],
+                "timeinfo": {
+                    "date": "17, February, 2024",
+                    "available": "05, September, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 49,
+                "brand": "Google",
+                "description": "Google Pixelbook Go",
+                "stock": 70,
+                "category": "Laptops",
+                "price": 999.99,
+                "sale": 0,
+                "image": ["https://example.com/pixelbookgo_1.jpg", "https://example.com/pixelbookgo_2.jpg", "https://example.com/pixelbookgo_3.jpg"],
+                "timeinfo": {
+                    "date": "18, February, 2024",
+                    "available": "10, September, 2024",
+                    "accesslimit": "30"
+                }
+            },
+            {
+                "id": 50,
+                "brand": "Samsung",
+                "description": "Samsung Galaxy Book Pro 360",
+                "stock": 45,
+                "category": "Laptops",
+                "price": 1199.99,
+                "sale": 0,
+                "image": ["https://example.com/galaxybookpro360_1.jpg", "https://example.com/galaxybookpro360_2.jpg", "https://example.com/galaxybookpro360_3.jpg"],
+                "timeinfo": {
+                    "date": "19, February, 2024",
+                    "available": "15, September, 2024",
+                    "accesslimit": "30"
+                }
+            }            
+        ]
+    }
+]
